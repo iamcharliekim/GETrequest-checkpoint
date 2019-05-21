@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<title>GET Request Checkpoint</title>
+</head>
+<body>
+	<main>
+		<form method="GET" action="" class="dog-form">
+			<legend><h1>1, 2. How Many Dogs Would You Like To See?</h1></legend>
+		
+			<div class="input">
+				<input type="number" value=3 min="1" max="50" required class="numOfDogs">
+				<button type="submit" class="submit-btn">Submit</button>
+			</div>
+
+		</form>		
+		
+		<form method="GET" action="" class="randombreed-form">
+			<legend><h1>3. Generate Random Breed</h1></legend>
+		
+			<div class="input">
+				<input type="text" required class="random-breed">
+				<button type="submit" class="submit-btn">Submit</button>
+			</div>
+
+		</form>
+		
+		
+
+		
+
+			<div class="dogs"></div>
+	</main>
+	
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+

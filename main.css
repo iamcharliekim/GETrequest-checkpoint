@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.input {
+	margin: 20px
+}
+
+.numOfDogs {
+	width: 100px;
+	border: 2px solid black;
+}
+
+form button {
+	border: 2px solid black;
+}
